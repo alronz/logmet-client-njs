@@ -9,7 +9,7 @@
         "url": "https://github.com/IBM/logmet-client-njs"
     },
     "dependencies": {
-        "bunyan": "^1.8.9"
+        "browser-bunyan": "^1.3.0"
     },
     "devDependencies": {
         "eslint": "^3.19.0"

@@ -2,7 +2,7 @@
  * Module defining a common logger
  */
 
-var bunyan = require('bunyan');
+var bunyan = require('browser-bunyan');
 
 var logger = bunyan.createLogger({name:'logmet_client', src:false, level: process.env.logmet_client_njs_level || 'warn'});
 
